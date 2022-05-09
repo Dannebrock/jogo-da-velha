@@ -3,13 +3,20 @@ body {
     background-image: url(/assets/img/jogovelha.jpg);
 }
 
-.container{
+.container-jogo{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
+.container{
+    width:auto;
+	height:auto;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
 .container-titulo{
     justify-content: center;
     align-items: center;
